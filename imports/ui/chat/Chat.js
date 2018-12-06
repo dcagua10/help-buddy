@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from "prop-types";
 
+/* dcagua10: Me gusto bastante la implementación de Talkjs como mecanismo de comunicacion entre usuarios */
+/* dcagua10: Sin embargo hay una cosa que podrian añadir y es el tema o asunto bajo el cual 2 usuarios se estan comunicando */
+/* dcagua10: Esto permite al usuario tener claridad del motivo de contacto al ser un usuario anonimo */
 export class Chat extends Component {
 
 	constructor(props) {
