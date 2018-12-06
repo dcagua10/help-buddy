@@ -161,6 +161,9 @@ let {
     return (
       <div style={divStyle}>
 {this.renderError(error)}
+  /* dcagua10: Dentro del formulario no se valida de forma correcta el nombre y el apellido puesto que permite letras y numeros en el campo*/
+  /* dcagua10: En caso de usar el nombre y apellido para registros internos es necesario validarlo */
+  /* dcagua10: En caso de descartarlos ya que el usuario es anonimo podria quitarse el campo */
 <div style={w} aria-label="Formulario para registrarse">
       <br/>
         <form>
